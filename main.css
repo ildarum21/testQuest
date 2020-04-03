@@ -1,0 +1,401 @@
+ /*Спецификация  */
+body{
+    font-family: 'Roboto', sans-serif;
+    transition: all  0.9s;
+}
+
+/*первый экран */
+     /*Шапка*/
+header{
+    height:671px ;
+    padding-top:16px;
+    background: url(img/bg.png) no-repeat center top /cover;
+}
+ ul,li{
+    display: block;
+    padding: 0;
+    margin:0;
+}
+.menu{
+    margin-top:10px;
+
+}
+.menu__item{
+    margin:0 13px;
+
+}
+.menu__item a{
+    transition: all 0.9s;
+    
+    font-style:Black ;
+    font-size: 13px;
+    text-transform: uppercase;
+    color:white;
+    text-decoration: none;
+}
+.menu__item a:hover{
+    color:#00e0d0;
+}
+  /*Основной текст*/
+.subtitle{
+    padding: 0;
+    text-align: center;
+    margin-top: 162px;
+    font-size: 32px;
+    font-style:black;
+    font-weight: 900;
+    font-family:'PlayfairDisplay';
+    color:white;
+    
+}
+.Separator{
+    padding: 0;
+    position: absolute;
+    left: 50%;
+    margin-top: 20px;
+    transform: translate(-50%, -50%);
+}
+.maintext{
+    margin-top: 54px;
+    padding: 0;
+    font-weight: lighter;
+    color:#ffffff;
+    font-size: 14px;
+    text-align: center;
+
+}
+.butt{
+    position: absolute;
+    left: 50%;
+    margin-top: 52px;
+    transform: translate(-50%, -50%);
+}
+
+/* Второй экран*/
+.our{
+    margin-top:71px;
+}
+ 
+.OURSTORY_text{
+    color:#413d4b;
+    padding: 0;
+    font-weight: lighter;
+    font-size: 14px;
+    opacity: .75;
+}
+.OURSTORY_subtitle{
+    padding: 0;
+    font-size: 22px;
+    font-weight: bold;
+    font-family:'PlayfairDisplay';
+    color:#413d4b;
+}
+
+/* Видео*/
+
+.video{
+    margin-top: 71px;
+    background: url(img/poster.png) no-repeat center top/cover;
+    height: 551px;
+}
+.play_video{
+    left:50%;
+    font-size: 16px;
+    font-family: 'Roboto';
+    font-weight: 900;
+    color:white;
+    text-align: center;
+    
+}
+/*третий экран*/
+
+.Expertise_subtitle{
+    margin-top: 72px;
+    padding: 0;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    font-family:'PlayfairDisplay';
+    color:#413d4b;
+}
+.Expertise_text{
+     padding: 0;
+     font-size: 14px;
+     font-style: normal;
+     font-weight: normal;
+     font-family:'PlayfairDisplay';
+     color:#2f2d35;
+     text-align: center;
+    
+}
+.expsep {
+    padding: 0;
+    position: absolute;
+    left: 50%;
+    margin-top: 5px;
+    transform: translate(-50%, -50%);
+}
+.exp__items{
+    position: relative;
+    padding: 0;
+    left: 50%;
+    margin-top:73px;
+    transform: translate(-50%, -50%);
+
+}
+.exp_items_text{
+    opacity: .75;
+      font-size: 14px;
+      font-family: Roboto;
+      font-weight: thin;
+      text-align: center;
+      color:#333333;
+}
+.exp_items_subtitle{
+    font-size:14px ;
+    font-family: Roboto;
+    font-style: black;
+    font-weight: 900;
+    color: #413d4b;
+    text-align: center;
+}
+
+/* четвертый экран*/
+
+.team{
+    
+    margin-top: 103px;
+  background: url(img/bgTeam.png) no-repeat center top/cover;
+   
+}
+
+.team_subtitle{
+    margin-top: 70px;
+    font-family: 'PlayfairDisplay';
+    font-weight: bold;
+    font-size:22px;
+    text-align: center;
+    text-transform: uppercase;
+    color:white;
+}
+.team_text{
+    opacity:.75;
+    padding: 0;
+     font-size: 14px;
+     font-style: normal;
+     font-weight: normal;
+     font-family:'PlayfairDisplay';
+     color:#f9f9f9;
+     text-align: center; 
+}
+.team_text_2{
+    padding: 0;
+    font-size: 14px;
+    font-family: 'Roboto';
+    font-weight: lighter;
+     color:#f3f3f3;
+     text-align: center; 
+}
+.person img{
+    margin-top:48px;
+    width: 220px;
+    height: 229px;
+}
+.name{
+    padding: 0;
+    font-size: 14px;
+    font-family: 'Roboto';
+    font-style:black;
+    color:white;
+    text-align: center;
+    margin-top:20px;
+
+}
+.position{
+    margin:0 auto;
+    padding: 0;
+    font-size: 13px;
+    font-family:'Roboto' ;
+    font-weight: lighter;
+    color:#fafafa;
+    opacity:.7;
+    text-align: center;
+}
+.secbutt{ 
+    position: relative;
+    padding: 0;
+    left: 50%;
+    margin-top: 29px;
+    transform: translate(-50%, -50%);
+
+
+}
+
+.name,.position{
+    margin-right:45px;
+}
+/*Пятый экран*/
+.slide{
+    margin-top: 70px;
+    display: inline ;
+}
+.works_but{
+    position: relative;
+    margin-top: 40px;
+    left:50%;
+    transform: translate(-50%, -50%);
+    width: 120px;
+    height: 40px;
+    border: 2px solid #00e0d0 ;
+    padding: 0;
+    background: none;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Roboto';
+    font-weight: 900;
+    color:#00e0d0 ;
+}
+.OUR_title{
+    margin-top: 70px;
+    padding: 0;
+     font-size: 22px;
+     font-weight:bold;
+     font-family:'PlayfairDisplay';
+     color:#413d4b;
+}
+
+
+
+
+
+
+
+/*Шестой экран*/
+.staff{ 
+    background:url(img/stuff_bg.png)no-repeat center top/cover;
+}
+.staff_title {
+
+    position: relative;
+   left:50% ;
+   transform: translate(-50%, -50%);
+
+}
+.staff_text{   
+    margin-top:45px;
+    opacity: .85;
+    font-size: 16px;
+    font-style: normal;
+    font-family:'PlayfairDisplay';
+    font-weight: normal;
+    color:white;
+    text-align: center;
+
+}
+.teen_img{
+    position: relative;
+    margin-top:70px;
+    left:50%;
+    transform: translate(-50%, -50%);
+ 
+}
+/*Форма */
+.SUBMIT{
+    position: relative;
+    margin-top: 22px;
+    left:50%;
+    transform: translate(-50%, -50%);
+    width: 120px;
+    height: 40px;
+    border: 2px solid #00e0d0 ;
+    padding: 0;
+    background: none;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Roboto';
+    font-weight: 900;
+    color:#00e0d0 ;
+}
+
+.form_title{
+    margin-top:71px;
+    font-size: 22px;
+    font-style: bold;
+    font-family:'PlayfairDisplay';
+    color:#413d4b;
+    text-align: center;
+
+}
+/*Футер*/
+.footer{
+    background: url(img/footer_bg.png) no-repeat center top/cover;
+}
+.footer_text{
+    margin-left: 10px;
+    margin-top: 36px;
+    font-weight: lighter;
+    font-family: 'Roboto';
+    font-size:14px;
+    color: white;
+}
+.footer_title{
+    font-family: 'Roboto';
+    font-weight: 800;
+    color: white;
+    font-size: 15px;
+}
+.footer__menu__item a{
+    font-weight: normal;  
+    font-size: 13px;
+    text-transform: uppercase;
+    color:white;
+    text-decoration: none;
+    
+}
+.footer__menu{
+    margin-top: 78px;
+}
+.footer__menu__item{
+margin: 0 16px;
+}
+.footer__right__menu__item{
+    margin: 0 3px;
+}
+.footer__right__menu__item:hover{
+   color:#00e0d0;
+}
+.foot__input{
+    height: 43px;
+        width: 210px;
+        font-size: 14px;
+        font-family:' Roboto';
+        text-align: center;
+         color:white;
+        font-weight: lighter;
+        border: 2px solid #9e98af;
+        background: none;
+        border-radius: 0;
+    
+}
+.copirating{
+    float: right;
+    margin-top: 110px;
+    font-weight: normal;  
+    font-size: 13px;
+    font-family:'Roboto';
+    color:white;
+    text-decoration: none;
+    
+}
+
+
+
+
+
+
+
+
+
